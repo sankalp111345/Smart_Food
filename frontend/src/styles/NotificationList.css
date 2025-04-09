@@ -1,0 +1,124 @@
+/* Container for Notifications */
+.notification-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    background: #FFD700; /* Yellow background */
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+    color: #fff; /* Default white text */
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+/* Mark All as Read Button */
+.mark-all-btn {
+    background: linear-gradient(135deg, #fff, #ffeb3b);
+    color: #333;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 20px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.mark-all-btn:hover {
+    background: linear-gradient(135deg, #f5f5f5, #ffe600);
+    transform: scale(1.05);
+}
+
+/* Notification Card */
+.notification-card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left: 5px solid #fff;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.notification-card:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-3px) scale(1.02);
+}
+
+/* Notification States */
+.notification-card.unread {
+    border-left-color: #FF5722;
+}
+
+.notification-card.read {
+    opacity: 0.7;
+}
+
+/* Notification Content */
+.notification-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.notification-card p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Timestamp */
+.timestamp {
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+/* Unread Badge */
+.unread-badge {
+    background-color: #FF5722;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Empty State */
+.no-notifications {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Error Message */
+.error-message {
+    color: #FF1744;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,50 @@
+{
+    "navbar": {
+        "home": "मुखपृष्ठ",
+        "warehouses": "गोदाम",
+        "bookings": "मेरी बुकिंग",
+        "profile": "प्रोफ़ाइल",
+        "logout": "लॉगआउट",
+        "login": "लॉगिन",
+        "register": "रजिस्टर"
+    },
+    "bookingPage": {
+        "title": "मेरी बुकिंग",
+        "capacity": "बुक की गई क्षमता",
+        "bookingDate": "बुकिंग तिथि",
+        "noBookings": "कोई बुकिंग नहीं मिली।"
+    },
+    "warehousePage": {
+        "title": "उपलब्ध गोदाम",
+        "capacity": "क्षमता",
+        "location": "स्थान",
+        "bookNow": "अभी बुक करें"
+    },
+    "profilePage": {
+        "title": "मेरी प्रोफ़ाइल",
+        "name": "नाम",
+        "email": "ईमेल",
+        "editProfile": "प्रोफ़ाइल संपादित करें",
+        "saveChanges": "परिवर्तन सहेजें"
+    },
+    "loginPage": {
+        "title": "लॉगिन",
+        "email": "ईमेल पता",
+        "password": "पासवर्ड",
+        "forgotPassword": "पासवर्ड भूल गए?",
+        "loginButton": "लॉगिन करें",
+        "noAccount": "क्या आपके पास खाता नहीं है?",
+        "registerNow": "अभी रजिस्टर करें"
+    },
+    "registerPage": {
+        "title": "रजिस्टर",
+        "name": "पूरा नाम",
+        "email": "ईमेल पता",
+        "password": "पासवर्ड",
+        "confirmPassword": "पासवर्ड की पुष्टि करें",
+        "registerButton": "रजिस्टर करें",
+        "alreadyAccount": "क्या आपके पास पहले से खाता है?",
+        "loginNow": "अभी लॉगिन करें"
+    },
+    "language": "भाषा"
+}

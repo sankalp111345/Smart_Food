@@ -1,0 +1,95 @@
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 36px;
+    color: #4caf50;
+  }
+  
+  .dashboard-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .dashboard-overview {
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-overview h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .overview-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .overview-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overview-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .overview-card p {
+    font-size: 16px;
+  }
+  
+  .dashboard-activity {
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-activity h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-activity ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-activity li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-links {
+    text-align: center;
+  }
+  
+  .quick-links .link-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .quick-links .link-button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+  }
+  

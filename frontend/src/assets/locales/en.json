@@ -1,0 +1,50 @@
+{
+    "navbar": {
+        "home": "Home",
+        "warehouses": "Warehouses",
+        "bookings": "My Bookings",
+        "profile": "Profile",
+        "logout": "Logout",
+        "login": "Login",
+        "register": "Register"
+    },
+    "bookingPage": {
+        "title": "My Bookings",
+        "capacity": "Capacity Booked",
+        "bookingDate": "Booking Date",
+        "noBookings": "No bookings found."
+    },
+    "warehousePage": {
+        "title": "Available Warehouses",
+        "capacity": "Capacity",
+        "location": "Location",
+        "bookNow": "Book Now"
+    },
+    "profilePage": {
+        "title": "My Profile",
+        "name": "Name",
+        "email": "Email",
+        "editProfile": "Edit Profile",
+        "saveChanges": "Save Changes"
+    },
+    "loginPage": {
+        "title": "Login",
+        "email": "Email Address",
+        "password": "Password",
+        "forgotPassword": "Forgot Password?",
+        "loginButton": "Login",
+        "noAccount": "Don't have an account?",
+        "registerNow": "Register Now"
+    },
+    "registerPage": {
+        "title": "Register",
+        "name": "Full Name",
+        "email": "Email Address",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "registerButton": "Register",
+        "alreadyAccount": "Already have an account?",
+        "loginNow": "Login Now"
+    },
+    "language": "Language"
+}

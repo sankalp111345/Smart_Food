@@ -1,0 +1,84 @@
+.profile-container {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #fff8e1, #ffe082); /* Soft yellow gradient */
+    border-radius: 15px;
+    max-width: 420px;
+    margin: 60px auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.profile-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(255, 193, 7, 0.3);
+    color: #333;
+}
+
+.profile-card p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.profile-card strong {
+    color: #f9a825; /* Yellow highlight */
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fbc02d;
+    margin-bottom: 15px;
+}
+
+/* Editable Input Fields */
+.profile-input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #fbc02d;
+    border-radius: 6px;
+    background: #fffde7;
+    color: #333;
+}
+
+/* Buttons */
+.profile-edit-btn,
+.profile-save-btn {
+    background: linear-gradient(135deg, #fdd835, #fbc02d);
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(255, 202, 40, 0.4);
+}
+
+.profile-edit-btn:hover,
+.profile-save-btn:hover {
+    background: linear-gradient(135deg, #fbc02d, #f9a825);
+}
+
+/* Feedback messages */
+.profile-loading,
+.profile-error {
+    font-size: 18px;
+    color: #d84315;
+    background-color: #fff3e0;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+/* Animation for a smooth fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

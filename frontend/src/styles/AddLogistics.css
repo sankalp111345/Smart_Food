@@ -1,0 +1,127 @@
+/* Container with Glassmorphism Effect */
+.enhanced-logistics-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #FFD700; /* Yellow background */
+}
+
+/* Heading with Stylish Font */
+h2 {
+  font-size: 32px;
+  color: #ffffff; /* White text */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Form Elements */
+.enhanced-logistics-form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.enhanced-logistics-form input,
+.enhanced-logistics-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  border-radius: 8px;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+
+.enhanced-logistics-form input:focus,
+.enhanced-logistics-form select:focus {
+  transform: scale(1.03);
+}
+
+/* Button with Ripple Effect */
+.btn-ripple {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #FFC107, #FFA000); /* Yellow gradient */
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+
+.btn-ripple::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.5), transparent);
+  transition: transform 0.5s ease;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.btn-ripple:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Success & Error Messages */
+.success-message {
+  color: #ffffff;
+  background: #689F38; /* Greenish background */
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #ffffff;
+  background: #D32F2F; /* Red background */
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Improved Dropdown Styling */
+.enhanced-logistics-form select {
+  background: #FBC02D;  /* Stronger yellow for visibility */
+  color: #FFFFFF;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  outline: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Dropdown Option Styling */
+.enhanced-logistics-form select option {
+  background: #FFF176;  /* Lighter yellow */
+  color: #000;          /* Darker text for readability in dropdown */
+  padding: 10px;
+}
+
+/* Dropdown Focus Effect */
+.enhanced-logistics-form select:focus {
+  transform: scale(1.03);
+  border: 2px solid #ffffff;
+}
+
+/* Dropdown Hover Effect */
+.enhanced-logistics-form select option:hover {
+  background: #FFC107;
+  color: #000;
+}

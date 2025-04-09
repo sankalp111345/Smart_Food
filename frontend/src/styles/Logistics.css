@@ -1,0 +1,155 @@
+/* General Container */
+.logistics-container {
+    font-family: 'Poppins', sans-serif;
+    background: #FFD700; /* Yellow background */
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff; /* White text globally */
+}
+
+/* Header */
+.logistics-header {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.logistics-header h1 {
+    font-size: 42px;
+    color: #fff;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.logistics-header p {
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Logistics List */
+.logistics-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Logistics Card */
+.logistics-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+
+.logistics-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* Card Header */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card-header h3 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.status-badge {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.active {
+    background: #43A047;
+}
+
+.pending {
+    background: #FFA000;
+}
+
+/* Card Details */
+.card-details p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Card Footer */
+.card-footer {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact-btn {
+    background: linear-gradient(135deg, #fff176, #fdd835);
+    color: #333;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(135deg, #ffee58, #fbc02d);
+    transform: scale(1.05);
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-top: 50px;
+}
+
+/* Error Message */
+.error-message {
+    color: #FF1744;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* No Logistics */
+.no-logistics {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
